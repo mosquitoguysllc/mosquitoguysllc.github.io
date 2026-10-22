@@ -18,14 +18,18 @@ Phone: **612-707-1770**
 You can open any `.html` file and change the words. Everything you are meant to change is marked
 with a note that starts with `<!--` (for example `<!-- PHOTO: ... -->`). Those notes do not show on the website.
 
-## Making the website live (free, with GitHub Pages)
+## Your live website
 
-1. Open this repository on github.com.
-2. Click **Settings** (near the top).
-3. On the left, click **Pages**.
-4. Under **Branch**, choose **main**, leave the folder as **/ (root)**, and click **Save**.
-5. Wait 2 to 5 minutes and refresh the page. GitHub will show your web address,
-   something like `https://your-name.github.io/mosquito-guys-website/`.
+**https://mosquitoguysllc.github.io**
+
+GitHub hosts the site for free. Any change saved to this project shows up on the live site
+within a few minutes.
+
+**To make a change:** ask Claude, or on github.com open the file (for example `services.html`),
+tap the pencil icon, change the words, and tap **Commit changes**.
+
+If the site ever stops showing: open this project on github.com, tap **Settings**, then **Pages**,
+and make sure **Branch** is set to **main** and **/ (root)**.
 
 To use your own address (like `mosquitoguys.com`), buy the name from a company such as GoDaddy or
 Squarespace Domains, then type it in the **Custom domain** box on that same Pages screen.
