@@ -20,7 +20,7 @@ with a note that starts with `<!--` (for example `<!-- PHOTO: ... -->`). Those n
 
 ## Your live website
 
-**https://mosquitoguysllc.github.io**
+**https://mosquitoguysmn.com** (also reachable at https://mosquitoguysllc.github.io)
 
 GitHub hosts the site for free. Any change saved to this project shows up on the live site
 within a few minutes.
@@ -31,8 +31,10 @@ tap the pencil icon, change the words, and tap **Commit changes**.
 If the site ever stops showing: open this project on github.com, tap **Settings**, then **Pages**,
 and make sure **Branch** is set to **main** and **/ (root)**.
 
-To use your own address (like `mosquitoguys.com`), buy the name from a company such as GoDaddy or
-Squarespace Domains, then type it in the **Custom domain** box on that same Pages screen.
+The address mosquitoguysmn.com was bought through Cloudflare. The `CNAME` file in this project tells
+GitHub to use it. In Cloudflare, the DNS records for mosquitoguysmn.com point to GitHub:
+four **A** records for `@` (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153)
+and a **CNAME** record for `www` pointing to `mosquitoguysllc.github.io`, all set to **DNS only** (gray cloud).
 
 ## The quote form
 
