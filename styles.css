@@ -856,3 +856,7 @@ fieldset.field { border: 0; margin: 0; padding: 0; }
 .towns-details[open] summary::after { content: "\2212"; }
 .towns-details[open] summary { margin-bottom: 20px; }
 .towns-details summary:hover { background: var(--mint); }
+
+/* Discount code box on the quote form */
+.field input.short-input { max-width: 340px; text-transform: uppercase; letter-spacing: 0.04em; }
+.field input.short-input::placeholder { text-transform: none; letter-spacing: 0; }
